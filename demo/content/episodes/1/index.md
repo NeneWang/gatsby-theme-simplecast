@@ -1,8 +1,9 @@
 ---
 id: a
+title: "Hello"
 summary: 'Summary. Lorem ipsum dolor sit amet.'
 resources: ['[Link](/)','[Link](/)','[Link](/)']
-guestName: 'Anna Doe'
+guestName: 'Nelson'
 guestSummary: '[Twitter](/)'
 image: null
 guestPhoto: ./guest.png

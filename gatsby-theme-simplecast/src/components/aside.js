@@ -35,7 +35,7 @@ function Aside({ markdown }) {
             <img src={spotifyImage} alt="Spotify logo" width="90" />
           </PodcastProvider>
         )}
-        {config.applePodcastsUrl && (
+        {/* {config.applePodcastsUrl && (
           <PodcastProvider to={config.applePodcastsUrl}>
             <img src={itunesIcon} alt="Apple Podcasts" />
           </PodcastProvider>
@@ -44,8 +44,8 @@ function Aside({ markdown }) {
           <PodcastProvider to={config.googlePodcastsUrl}>
             <img src={googleImage} alt="Google Podcasts" />
           </PodcastProvider>
-        )}
-      </div>
+        )}*/}
+      </div> 
       {markdown && (
         <div>
           {markdown.frontmatter.guestName && (

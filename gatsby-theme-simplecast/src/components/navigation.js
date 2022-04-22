@@ -22,7 +22,7 @@ function Navigation() {
         <h1 sx={{ fontSize: 6, color: "primary", mb: 0 }}>
           {data.site.siteMetadata.title
             ? data.site.siteMetadata.title
-            : "Podcast Name"}
+            : "MCI Report"}
         </h1>
       </Link>
       {config.podcastSeason && (

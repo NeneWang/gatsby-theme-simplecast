@@ -1,6 +1,6 @@
 export default {
   useCustomProperties: true,
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   colors: {
     text: 'rgba(255, 255, 255, 0.9)',
     background: '#1A2232',
