@@ -68,4 +68,4 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-!*/@vojtaholik/gatsby-theme-simplecast/src/components
+!*/@vojtaholik/gatsby-theme-simplecast/src/components/*
