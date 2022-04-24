@@ -20,9 +20,7 @@ function Navigation() {
     <>
       <Link to="/">
         <h1 sx={{ fontSize: 6, color: "primary", mb: 0 }}>
-          {data.site.siteMetadata.title
-            ? data.site.siteMetadata.title
-            : "MCI Report"}
+          {"MCI Report"}
         </h1>
       </Link>
       {config.podcastSeason && (
@@ -43,7 +41,7 @@ function Navigation() {
   )
 
   const data = useStaticQuery(graphql`
-    query navQuery {
+    query navQueryAndNavQuery  {
       site {
         siteMetadata {
           title
