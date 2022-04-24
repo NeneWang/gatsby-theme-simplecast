@@ -34,6 +34,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+!*/@vojtaholik/gatsby-theme-simplecast/src/components/*
 jspm_packages/
 
 # Typescript v1 declaration files
@@ -67,5 +68,3 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-
-!*/@vojtaholik/gatsby-theme-simplecast/src/components/*

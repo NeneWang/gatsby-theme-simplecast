@@ -2,8 +2,6 @@
 id: a
 title: "Hello"
 summary: 'Summaryasdasd. Lorem ipsum dolor sit amet.'
-resources: ['[Link](/)','[Link](/)','[Link](/)']
-guestName: 'Nelson'
 guestSummary: '[Twitter](/)'
 image: null
 guestPhoto: ./guest.png
