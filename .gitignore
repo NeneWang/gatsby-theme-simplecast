@@ -41,6 +41,8 @@ node_modules/
 !node_modules/gatsby-theme-simplecast/*
 jspm_packages/
 
+!.gitignore
+
 # Typescript v1 declaration files
 typings/
 
