@@ -119,7 +119,7 @@ function Navigation() {
                   opacity: 0.6,
                 }}
               >
-                Man of god
+                Man of godasdas
               </h5>
             </div>
             <ul id="menu" role="menu" sx={{ pb: 14 }}>
