@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from "gatsby-image"
+import { Link } from 'gatsby'
 
 export default function NotFound() {
     return (
@@ -9,7 +10,7 @@ export default function NotFound() {
             <Img src="../../../static/img/2022-04-29-18-24-16.png" alt="" />
             <li>Keith WildChild Middleton</li>
             <li>LR Blitzkrieg</li>
-            <li>GMS	GMS</li>
+            <li><Link to="gms">GMS	GMS</Link></li>
             <li>PH	PH</li>
             <li>CHORDZ CORDERO in STUDIO	CHORDZ CORDERO</li>
             <li>Artists	Juggernaut War Party</li>
