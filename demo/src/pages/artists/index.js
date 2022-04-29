@@ -6,7 +6,7 @@ export default function NotFound() {
         <div>
             <h1>Artists Page</h1>
             <img src="https://www.mcmireport.com/wp-content/uploads/2021/03/MCMI-PEN-SWORD-RECORDS.jpg" alt="" />
-            <Img src="../../static/img/2022-04-29-18-24-16.png" alt="" />
+            <Img src="../../../static/img/2022-04-29-18-24-16.png" alt="" />
             <li>Keith WildChild Middleton</li>
             <li>LR Blitzkrieg</li>
             <li>GMS	GMS</li>
