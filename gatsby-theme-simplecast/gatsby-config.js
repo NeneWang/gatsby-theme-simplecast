@@ -1,6 +1,6 @@
 module.exports = ({ markdownPath = `${__dirname}/content/episodes` }) => ({
   siteMetadata: {
-    title: `Podcast Name`,
+    title: `Hotdog`,
     description: `Podcast description.`,
     author: `@vojtaholik`,
   },
