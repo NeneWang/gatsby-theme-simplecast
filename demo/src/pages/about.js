@@ -1,9 +1,12 @@
 import React from 'react'
+import Episode from "@vojtaholik/gatsby-theme-simplecast/src/templates/episode";
 
 export default function NotFound() {
     return (
-        <div>
-            <h1>About</h1>
+            
+           <Episode data={{episode:"", markDownRemark:"<h1>Hello</h1>"}} >
+
+           <h1>About</h1>
             What is MCMI?
             MCMI is a multi – divisional brand manifesting music, media and apparel, to cultivate the advancement of Hip Hop culture in the digital age.
             MCMI Records – Record label who’s catalog includes: The Plague, Hydra, PH (formerly Pumpkinhead), LR Blitzkrieg, Keith “WildChild” Middleton, GMS, Levels, JWP, theMarXman, Chordz Cordero, the6ixers and more.
@@ -12,6 +15,6 @@ export default function NotFound() {
             MCMI Radio – a weekly Hip Hop music & talk radio show that had over 200,000 dedicated listeners, broadcast on BlogTalkRadio.com/6thManRadio
             MCMIreport.com – Hip Hop culture portal to the latest News, Music, Videos, Events and more!
             MCMI WARZONE – A new era battle league – earn your stripes!
-        </div>
+           </Episode>
     )
 }
